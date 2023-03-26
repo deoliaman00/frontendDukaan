@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../../fonts/galanogrotesque-medium.otf"),
+    url("../../fonts/galanogrotesque-regular.otf"),
+    url("../../fonts/galanogrotesque-semibold.otf");
+  font-weight: normal;
+}
+.container {
+  position: relative;
+}
+.mainDiv {
+  background-color: #146eb4;
+  height: 250px;
+  border-color: aliceblue;
+  position: relative;
+  width: 100%;
+}
+
+.features-div {
+  position: relative;
+  height: 200vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.features-div2 {
+  margin-left: 15%;
+}
+.slogan-maker {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  background-color: #fff;
+  height: auto;
+  overflow: auto;
+  margin-top: 50px;
+
+  padding: 20px; /* Add some padding to the section element */
+  box-shadow: 0px 1px 8px 0.5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.cards-div {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin: 0 3% 0 7%;
+  border-color: black;
+}
+.cards-div > * {
+  flex: 0 0 30%;
+}
+
+.cards-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* margin-right:15%; */
+  background-color: #f2f2f2;
+  border-radius: 2px;
+}
+.card-body {
+  border: solid;
+  border-color: #fff;
+}
+
+.products-div {
+  background-color: #fff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.products-div-heading {
+  padding-left: 50px;
+  margin-bottom: 100px;
+  font-family: "Galano Grotesque";
+}
+
+.card-title {
+  font-family: "Galano Grotesque";
+}
+.card-text {
+  font-family: "Galano Grotesque";
+  font-weight: normal;
+  text-align: left;
+}
+
+.head-title {
+  font-family: "Galano Grotesque";
+  
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding-right: 20px; /* Make space for clear button */
+  width: 300px;
+  height: 35px;
+}
+
+.clear-button {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  color: #000;
+}
+
+.generate-btn {
+  color: white;
+  background-color: #146eb4;
+}
+
+.pagi-div {
+  margin-bottom: 50px;
+}

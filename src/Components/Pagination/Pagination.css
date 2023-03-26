@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../../fonts/galanogrotesque-medium.otf"),
+    url("../../fonts/galanogrotesque-regular.otf"),
+    url("../../fonts/galanogrotesque-semibold.otf");
+  font-weight: normal;
+}
+.head-title {
+  font-family: "Galano Grotesque";
+
+  /* font-style: SemiBold; */
+}
+.head-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: auto;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+}
+.headtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: 1%;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  height:70px;
+}
+
+.head-pag {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 6%;
+}
+.down-btn{
+ 
+  margin-right: 20%;
+}
+.hidden {
+  display: none;
+}
+
+.iter-button,.iter-button-2 {
+  width: 50px; /* Set the width and height to be the same to create a circle */
+  height: 50px;
+  border-radius: 50%; /* Set the border-radius property to 50% to create a circle */
+  background-color: #1e90ff; /* Set the background color */
+  color: #fff; /* Set the text color */
+  font-size: 15px; /* Set the font size */
+  border: none; /* Remove the border */
+  cursor: pointer; /* Add a cursor pointer on hover */
+  border: 1px solid #ccc;
+}
+
+.iter-button-2{
+  background-color:#fff;
+  color: #1e90ff; /* Set the background color */
+}
