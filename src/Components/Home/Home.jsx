@@ -43,6 +43,7 @@ const Home = () => {
               >
                 Generate slogans
               </button>
+              <hr style={{ marginTop:"5%",marginBottom:"5%",width: "85%" }} />
             </div>
             <Pagination />
           </div>
@@ -59,9 +60,7 @@ const Home = () => {
         <Features />
       </div>
       <div className="products-div">
-        <h1 className="products-div-heading" style={{ marginleft: "7%" }}>
-          Try our other free Products
-        </h1>
+        <h1 className="products-div-heading">Try our other free Products</h1>
         <div className="cards-div">
           <div
             className="card cards-info"

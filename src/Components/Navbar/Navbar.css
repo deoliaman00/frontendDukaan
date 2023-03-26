@@ -1,27 +1,28 @@
-.mainNav{
-        
-        
-        padding: 1px;
-        margin-bottom: 0%;
-        background-color:  #146EB4;
+.mainNav {
+  padding: 1px;
+  margin-bottom: 0%;
+  background-color: #146eb4;
 }
 
-.brand-icon{
-    height:50px;
-    margin-left: 20%;;
-    
+.brand-icon {
+  height: 50px;
+  margin-left: 20%;
 }
-.sign-in-button{
-    margin-right: 20px;
-    color:white;
-    text-decoration: none;
+.sign-in-button {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
 }
-.dukaan-btn{
-    color:#146EB4;
-    width:150px;
-    height:40px;
-    font-size: larger;
-    border-radius: 5px;
-    border:0px;
+.sign-in-button:active {
+  outline: none;
+  color: white;
+  text-decoration: none;
 }
-
+.dukaan-btn {
+  color: #146eb4;
+  width: 150px;
+  height: 40px;
+  font-size: larger;
+  border-radius: 5px;
+  border: 0px;
+}

@@ -18,17 +18,18 @@
 
 .features-div {
   position: relative;
-  height: 200vh;
+  height: 180vh;
   justify-content: center;
   align-items: center;
   background-color: white;
 }
 .features-div2 {
+  margin-top:10%;
   margin-left: 15%;
 }
 .slogan-maker {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   align-items: center;
@@ -75,7 +76,7 @@
 }
 
 .products-div-heading {
-  padding-left: 50px;
+  padding-left: 7%;
   margin-bottom: 100px;
   font-family: "Galano Grotesque";
 }
