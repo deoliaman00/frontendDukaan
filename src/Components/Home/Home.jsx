@@ -14,7 +14,7 @@ const Home = () => {
         <div className="mainDiv">{/* So here is the empty space */}</div>
         <section className="slogan-maker">
           <div className="features-div2">
-            <div style={{ marginBottom: "20px" }}>
+            <div className="features-div-3">
               <h1 className="head-title-heading">Free Slogan Maker</h1>
               <p className="head-title-para">
                 Simply enter a term that describes your business, and get up to
@@ -23,49 +23,29 @@ const Home = () => {
               </p>
             </div>
             <div className="pagi-div">
-              <h4 className="head-title-slogan" style={{ fontSize: "16px" }}>
-                Word for your Slogan
-              </h4>
+              <h4 className="head-title-slogan">Word for your Slogan</h4>
               <div className="input-wrapper">
                 <input type="text" placeholder="Enter text" />
                 <span className="clear-button">&times;</span>
               </div>
 
               <br />
-              <button
-                type="button"
-                className="btn btn-lg"
-                style={{
-                  color: "white",
-                  backgroundColor: "#146EB4",
-                  borderRadius: "4px",
-                }}
-              >
+              <button type="button" className="generate-button btn btn-lg">
                 Generate slogans
               </button>
-              <hr style={{ marginTop:"5%",marginBottom:"5%",width: "85%" }} />
+              <hr className="below-generate-hr" />
             </div>
             <Pagination />
           </div>
         </section>
       </div>
-      <div
-        style={{
-          height: "auto",
-          backgroundColor: "#f3f9fa",
-          position: "relative",
-          minHeight: "350px",
-        }}
-      >
+      <div className="feature-home-div">
         <Features />
       </div>
       <div className="products-div">
         <h1 className="products-div-heading">Try our other free Products</h1>
         <div className="cards-div">
-          <div
-            className="card cards-info"
-            style={{ marginBottom: "15px", marginRight: "2%" }}
-          >
+          <div className="card cards-info">
             <img className="card-img-top" src={bracket} alt="Card  cap" />
             <div className="card-body">
               <h5 className="card-title">Privacy Policy Generator</h5>
@@ -76,10 +56,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div
-            className="card cards-info"
-            style={{ marginBottom: "15px", marginRight: "2%" }}
-          >
+          <div className="card cards-info">
             <img className="card-img-top" src={rec2} alt="Card cap" />
             <div className="card-body">
               <h5 className="card-title">Terms & Conditions Generator</h5>
@@ -90,10 +67,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div
-            className="card cards-info"
-            style={{ marginBottom: "15px", marginRight: "2%" }}
-          >
+          <div className="card cards-info">
             <img className="card-img-top" src={rec3} alt="Card cap" />
             <div className="card-body">
               <h5 className="card-title">Domain Name Generator</h5>
@@ -104,10 +78,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div
-            className="card cards-info"
-            style={{ marginBottom: "5px", marginRight: "2%" }}
-          >
+          <div className="card cards-info">
             <img className="card-img-top" src={rec4} alt="Card cap" />
             <div className="card-body">
               <h5 className="card-title">Invoice Generator</h5>
