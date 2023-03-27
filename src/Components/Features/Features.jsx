@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <>
       <div className="feature">
-        <div className="feature-div" style={{ marginTop: "5%" }}>
+        <div className="feature-div">
           <img className="imgIcon" src={featureIcon1} alt="" />
           <h5 className="feature-heading-2">Search</h5>
           <p className="ptext">
@@ -15,7 +15,7 @@ const Features = () => {
             slogan maker search box. Wait for the magic to happen.
           </p>
         </div>
-        <div className="feature-div" style={{ marginTop: "5%" }}>
+        <div className="feature-div">
           <img className="imgIcon" src={featureIcon2} alt="" />
           <h5 className="feature-heading-2">Select</h5>
           <p className="ptext">
@@ -23,7 +23,7 @@ const Features = () => {
             slogan maker search box. Wait for the magic to happen.
           </p>
         </div>
-        <div className="feature-div" style={{ marginTop: "5%" }}>
+        <div className="feature-div">
           <img className="imgIcon" src={featureIcon3} alt="" />
           <h5 className="feature-heading-2">Stand out</h5>
           <p className="ptext">
