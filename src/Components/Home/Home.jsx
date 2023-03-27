@@ -54,7 +54,7 @@ const Home = () => {
           height: "auto",
           backgroundColor: "#f3f9fa",
           position: "relative",
-          minHeight: "300px",
+          minHeight: "350px",
         }}
       >
         <Features />
@@ -69,7 +69,7 @@ const Home = () => {
             <img className="card-img-top" src={bracket} alt="Card image cap" />
             <div className="card-body">
               <h5 className="card-title">Privacy Policy Generator</h5>
-              <p className="card-text" style={{ textAlign: "center" }}>
+              <p className="card-text" style={{ textAlign: "left" }}>
                 Stock your store with 100s of products and start selling to
                 customers in minutes, without the hassle of inventory or
                 packaging.

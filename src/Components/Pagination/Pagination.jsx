@@ -95,13 +95,13 @@ const Paginating = () => {
           </div>
         </div>
       </div>
-      <hr style={{ width: "75%", marginRight: "250px" }} />
+      <hr style={{ width: "85%", marginRight: "250px" }} />
       <div>
         <div className="pagination">
-          <div style={{marginLeft:"auto"}}>{renderPageNumbers()}</div>
+          <div style={{marginLeft:"30%"}}>{renderPageNumbers()}</div>
           <button
             class="btn "
-            style={{ marginLeft: "auto", marginRight: "28%", color: "blue" }}
+            style={{ marginLeft: "28%", color: "blue" }}
             disabled={currentPage === pageCount}
             onClick={() => handleClick(currentPage + 1)}
           >

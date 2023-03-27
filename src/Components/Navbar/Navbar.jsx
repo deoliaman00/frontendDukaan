@@ -6,7 +6,7 @@ import "./Navbar.css";
 const Navigation = () => {
   return (
     <Navbar className="mainNav">
-      <Container style={{ display: "flex", marginTop: "20px" }}>
+      <Container style={{ display: "flex", marginTop: "20px",marginLeft:"9%",marginRight:"9%" }}>
         <Navbar.Brand href="#" style={{ margin: "auto" }}>
           <img
             alt="logo"

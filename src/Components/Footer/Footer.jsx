@@ -3,6 +3,7 @@ import { FaCalendar } from "react-icons/fa";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { RiLinkedinFill } from "react-icons/ri";
 import icon2 from "../../Images/icon2.jpg";
+import india from "../../Images/india.jpg";
 import "./Footer.css";
 
 function Footer() {
@@ -47,11 +48,11 @@ function Footer() {
         </div>
         <div className="footer-div3">
           <div className="right-div">
-            <p style={{ color: "white" }}>
-              Dukaan 2020, All right reserved.
-            </p>
+            <p style={{ color: "white" }}>Dukaan 2020, All right reserved.</p>
           </div>
-          <p style={{ color: "white" }}>Made in India</p>
+          <p style={{ color: "white" }}>
+            Made in <img className="india-icon" src={india} alt="Indian_flag" />
+          </p>
         </div>
       </footer>
     </>

@@ -14,8 +14,7 @@
   text-decoration: none;
 }
 .sign-in-button:active {
-  outline: none;
-  color: white;
+  color:inherit;
   text-decoration: none;
 }
 .dukaan-btn {
