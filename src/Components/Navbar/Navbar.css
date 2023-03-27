@@ -16,6 +16,8 @@
   margin-right: 20px;
   color: white;
   text-decoration: none;
+  margin-top: 8px;
+  font-size: 18px;
 }
 .sign-in-button:active {
   color:inherit;
@@ -29,4 +31,19 @@
   border-radius: 5px;
   border: 0px;
   font-family: "Galano Grotesque";
+}
+
+.navbar-container-1{
+  display: flex;
+  margin-top:20px;
+  margin-left:9% !important;
+  margin-right:9% !important;
+}
+
+.img-brand-nav{
+  margin: auto;
+}
+
+.collapse-div{
+  margin: auto;
 }

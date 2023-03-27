@@ -6,8 +6,8 @@ import "./Navbar.css";
 const Navigation = () => {
   return (
     <Navbar className="mainNav">
-      <Container style={{ display: "flex", marginTop: "20px",marginLeft:"9%",marginRight:"9%" }}>
-        <Navbar.Brand href="#" style={{ margin: "auto" }}>
+      <Container className="navbar-container-1">
+        <Navbar.Brand href="#" className="img-brand-nav">
           <img
             alt="logo"
             src={icon}
@@ -16,15 +16,10 @@ const Navigation = () => {
           />
         </Navbar.Brand>
 
-        <Navbar.Collapse id="basic-navbar-nav" style={{ margin: "auto" }}>
+        <Navbar.Collapse id="basic-navbar-nav" className="collapse-div">
           <Nav className="ms-auto">
             <Nav>
-              <Link
-                className="sign-in-button"
-                style={{ marginTop: "8px", fontSize: "18px" }}
-              >
-                Sign In
-              </Link>
+              <Link className="sign-in-button">Sign In</Link>
               <button className="dukaan-btn">Dukaan for PC</button>
             </Nav>
           </Nav>
