@@ -55,7 +55,7 @@ const Paginating = () => {
     for (let i = 1; i <= pageCount; i++) {
       pageNumbers.push(
         <button
-          className={i===currentPage?"iter-button":"iter-button-2"}
+          className={i === currentPage ? "iter-button" : "iter-button-2"}
           style={{ marginLeft: "10px" }}
           key={i}
           onClick={() => handleClick(i)}
@@ -77,31 +77,25 @@ const Paginating = () => {
           <h4 className="head-title">
             We have generated 1,023 slogans for "cozy"{" "}
           </h4>
-          <button
-            className="btn down-btn"
-            style={{ color: "blue", border: "2px solid blue",width:"200px",backgroundColor:"transparent"}}
-          >
-            Download All
-          </button>
+          <button className="btn down-btn">Download All</button>
         </div>
 
         <div>
           <div className="head-div">
             {itemsToDisplay.map((item) => (
               <div key={item} className="headtitle">
-                <h5 className="text-pagination" style={{ marginLeft:"7px",marginTop:"15px" ,textAlign: "left" }}>{item}</h5>
+                <h5 className="text-pagination">{item}</h5>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <hr style={{ width: "85%", marginRight: "250px" }} />
+      <hr className="paginate-hr" />
       <div>
         <div className="pagination">
-          <div style={{marginLeft:"30%"}}>{renderPageNumbers()}</div>
+          <div className="button-div-render">{renderPageNumbers()}</div>
           <button
-            class="btn "
-            style={{ marginLeft: "28%", color: "blue" }}
+            class="btn next-btn"
             disabled={currentPage === pageCount}
             onClick={() => handleClick(currentPage + 1)}
           >
