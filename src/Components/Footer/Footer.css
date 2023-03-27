@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Galano Grotesque semibold";
+  src: url("../../fonts/galanogrotesque-semibold.otf");
+}
+
+@font-face {
+  font-family: "Galano Grotesque regular";
+  src: url("../../fonts/galanogrotesque-regular.otf");
+}
+
+@font-face {
+  font-family: "Galano Grotesque medium";
+  src: url("../../fonts/galanogrotesque-medium.otf");
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -111,4 +125,18 @@
   width:25%;
   padding: 0;
   margin-bottom: 5px;
+}
+
+.footer-info{
+  font-family: "Galano Grotesque regular";
+}
+
+.footer-down-text{
+   font-family: "Galano Grotesque regular";
+   text-align: end;
+}
+
+.link-name{
+  color: inherit;
+  text-decoration: none;
 }

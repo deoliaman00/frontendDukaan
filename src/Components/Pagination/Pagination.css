@@ -1,9 +1,16 @@
 @font-face {
-  font-family: "Galano Grotesque";
-  src: url("../../fonts/galanogrotesque-medium.otf"),
-    url("../../fonts/galanogrotesque-regular.otf"),
-    url("../../fonts/galanogrotesque-semibold.otf");
-  font-weight: normal;
+  font-family: "Galano Grotesque semibold";
+  src: url("../../fonts/galanogrotesque-semibold.otf");
+}
+
+@font-face {
+  font-family: "Galano Grotesque regular";
+  src: url("../../fonts/galanogrotesque-regular.otf");
+}
+
+@font-face {
+  font-family: "Galano Grotesque medium";
+  src: url("../../fonts/galanogrotesque-medium.otf");
 }
 .head-title {
   font-family: "Galano Grotesque";
@@ -26,7 +33,7 @@
   margin: 1%;
   background-color: #f2f2f2;
   border-radius: 5px;
-  height:70px;
+  height:60px;
 }
 
 .head-pag {
@@ -58,4 +65,9 @@
 .iter-button-2{
   background-color:#fff;
   color: #1e90ff; /* Set the background color */
+}
+
+.text-pagination{
+  font-size: 16px;
+  font-family: "Galano Grotesque regular";
 }

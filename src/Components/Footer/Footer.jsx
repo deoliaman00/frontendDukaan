@@ -1,10 +1,9 @@
 import React from "react";
-import { FaCalendar } from "react-icons/fa";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-import { RiLinkedinFill } from "react-icons/ri";
+
 import icon2 from "../../Images/icon2.jpg";
 import india from "../../Images/india.jpg";
 import "./Footer.css";
+import {Link} from "react-router-dom";
 
 function Footer() {
   return (
@@ -15,42 +14,104 @@ function Footer() {
             <img
               style={{ height: "50px", width: "200px" }}
               src={icon2}
-              alt="Brand Image"
+              alt="Brand "
             />
           </div>
 
           <div style={{ marginRight: "40px" }}>
-            <div style={{ color: "white", marginBottom: "10px" }}>Contact</div>
-            <div style={{ color: "white" }}>FAQ's</div>
-          </div>
-          <div style={{ marginRight: "40px" }}>
-            <div style={{ color: "white", marginBottom: "10px" }}>
-              Tutorials
+            <div
+              className="footer-info"
+              style={{ color: "white", marginBottom: "10px" }}
+            >
+              <Link className="link-name" to="#">
+                Contact
+              </Link>
             </div>
-            <div style={{ color: "white" }}>Blogs</div>
+            <div className="footer-info" style={{ color: "white" }}>
+              <Link className="link-name" to="#">
+                {" "}
+                FAQ's
+              </Link>
+            </div>
           </div>
           <div style={{ marginRight: "40px" }}>
-            <div style={{ color: "white", marginBottom: "10px" }}>Privacy</div>
-            <div style={{ color: "white" }}>Banned Items</div>
+            <div
+              className="footer-info"
+              style={{ color: "white", marginBottom: "10px" }}
+            ><Link className="link-name" to="#">
+              Tutorials</Link>
+            </div>
+            <div className="footer-info" style={{ color: "white" }}>
+              <Link className="link-name" to="#">
+              Blogs
+              </Link>
+            </div>
           </div>
           <div style={{ marginRight: "40px" }}>
-            <div style={{ color: "white", marginBottom: "10px" }}>About</div>
-            <div style={{ color: "white" }}>Jobs</div>
+            <div
+              className="footer-info"
+              style={{ color: "white", marginBottom: "10px" }}
+            >
+              <Link className="link-name" to="#">
+              Privacy
+              </Link>
+            </div>
+            <div className="footer-info" style={{ color: "white" }}>
+              <Link className="link-name" to="#">
+              Banned Items
+              </Link>
+            </div>
+          </div>
+          <div style={{ marginRight: "40px" }}>
+            <div
+              className="footer-info"
+              style={{ color: "white", marginBottom: "10px" }}
+            >
+              <Link className="link-name" to="#">
+              About
+              </Link>
+            </div>
+            <div className="footer-info" style={{ color: "white" }}>
+              <Link className="link-name" to="#">
+              Jobs
+              </Link>
+            </div>
           </div>
 
           <div className="footer-socials">
-            <div style={{ color: "white", marginBottom: "10px" }}>Facebook</div>
-            <div style={{ color: "white", marginBottom: "10px" }}>
-              Instagram
+            <div
+              className="footer-info"
+              style={{ color: "white", marginBottom: "10px" }}
+            >
+              
+              Facebook
+              
             </div>
-            <div style={{ color: "white", marginBottom: "10px" }}>LinkedIn</div>
+            <div
+              className="footer-info"
+              style={{ color: "white", marginBottom: "10px" }}
+            >
+              
+              Twitter
+              
+            </div>
+            <div
+              className="footer-info"
+              style={{ color: "white", marginBottom: "10px" }}
+            >
+              
+              LinkedIn
+              
+            </div>
           </div>
         </div>
         <div className="footer-div3">
           <div className="right-div">
-            <p style={{ color: "white" }}>Dukaan 2020, All right reserved.</p>
+            <p className="footer-down-text" style={{ color: "white" }}>
+              Dukaan 2020, All right reserved.
+            </p>
           </div>
-          <p style={{ color: "white" }}>
+          <p className="footer-down-text" style={{ color: "white" }}>
             Made in <img className="india-icon" src={india} alt="Indian_flag" />
           </p>
         </div>

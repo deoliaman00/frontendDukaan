@@ -1,9 +1,16 @@
 @font-face {
-  font-family: "Galano Grotesque";
-  src: url("../../fonts/galanogrotesque-medium.otf"),
-    url("../../fonts/galanogrotesque-regular.otf"),
-    url("../../fonts/galanogrotesque-semibold.otf");
-  font-weight: normal;
+  font-family: "Galano Grotesque semibold";
+  src: url("../../fonts/galanogrotesque-semibold.otf");
+}
+
+@font-face {
+  font-family: "Galano Grotesque regular";
+  src: url("../../fonts/galanogrotesque-regular.otf");
+}
+
+@font-face {
+  font-family: "Galano Grotesque medium";
+  src: url("../../fonts/galanogrotesque-medium.otf");
 }
 .container {
   position: relative;
@@ -42,6 +49,7 @@
   box-shadow: 0px 1px 8px 0.5px rgba(0, 0, 0, 0.1);
   width: 80%;
   margin-bottom: 50px;
+  border-radius: 5px;
 }
 
 .cards-div {
@@ -78,21 +86,29 @@
 .products-div-heading {
   padding-left: 7%;
   margin-bottom: 100px;
-  font-family: "Galano Grotesque";
+  font-family: "Galano Grotesque semibold";
 }
 
 .card-title {
-  font-family: "Galano Grotesque";
+  font-family: "Galano Grotesque medium";
 }
 .card-text {
-  font-family: "Galano Grotesque";
-  font-weight: normal;
+  font-family: "Galano Grotesque regular";
   text-align: left;
 }
 
-.head-title {
-  font-family: "Galano Grotesque";
+.head-title-heading {
+  font-family: "Galano Grotesque semibold";
   
+}
+.head-title-para{
+font-family: "Galano Grotesque regular";
+font-size: 20px;
+}
+
+.head-title-slogan{
+  font-family: "Galano Grotesque medium";
+  font-size: 16px;
 }
 
 .input-wrapper {

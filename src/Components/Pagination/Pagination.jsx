@@ -89,7 +89,7 @@ const Paginating = () => {
           <div className="head-div">
             {itemsToDisplay.map((item) => (
               <div key={item} className="headtitle">
-                <h5 style={{ marginLeft:"7px",marginTop:"15px" ,textAlign: "left" }}>{item}</h5>
+                <h5 className="text-pagination" style={{ marginLeft:"7px",marginTop:"15px" ,textAlign: "left" }}>{item}</h5>
               </div>
             ))}
           </div>

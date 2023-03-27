@@ -15,15 +15,15 @@ const Home = () => {
         <section className="slogan-maker">
           <div className="features-div2">
             <div style={{ marginBottom: "20px" }}>
-              <h1 className="head-title">Free Slogan Maker</h1>
-              <p className="head-title">
+              <h1 className="head-title-heading">Free Slogan Maker</h1>
+              <p className="head-title-para">
                 Simply enter a term that describes your business, and get up to
                 1,000 <br />
                 relevant slogans for free.
               </p>
             </div>
             <div className="pagi-div">
-              <h4 className="head-title" style={{ fontSize: "16px" }}>
+              <h4 className="head-title-slogan" style={{ fontSize: "16px" }}>
                 Word for your Slogan
               </h4>
               <div className="input-wrapper">
@@ -66,7 +66,7 @@ const Home = () => {
             className="card cards-info"
             style={{ marginBottom: "15px", marginRight: "2%" }}
           >
-            <img className="card-img-top" src={bracket} alt="Card image cap" />
+            <img className="card-img-top" src={bracket} alt="Card  cap" />
             <div className="card-body">
               <h5 className="card-title">Privacy Policy Generator</h5>
               <p className="card-text" style={{ textAlign: "left" }}>
@@ -80,7 +80,7 @@ const Home = () => {
             className="card cards-info"
             style={{ marginBottom: "15px", marginRight: "2%" }}
           >
-            <img className="card-img-top" src={rec2} alt="Card image cap" />
+            <img className="card-img-top" src={rec2} alt="Card cap" />
             <div className="card-body">
               <h5 className="card-title">Terms & Conditions Generator</h5>
               <p className="card-text">
@@ -94,7 +94,7 @@ const Home = () => {
             className="card cards-info"
             style={{ marginBottom: "15px", marginRight: "2%" }}
           >
-            <img className="card-img-top" src={rec3} alt="Card image cap" />
+            <img className="card-img-top" src={rec3} alt="Card cap" />
             <div className="card-body">
               <h5 className="card-title">Domain Name Generator</h5>
               <p className="card-text">
@@ -108,7 +108,7 @@ const Home = () => {
             className="card cards-info"
             style={{ marginBottom: "5px", marginRight: "2%" }}
           >
-            <img className="card-img-top" src={rec4} alt="Card image cap" />
+            <img className="card-img-top" src={rec4} alt="Card cap" />
             <div className="card-body">
               <h5 className="card-title">Invoice Generator</h5>
               <p className="card-text">
